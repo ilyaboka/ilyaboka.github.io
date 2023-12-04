@@ -7,7 +7,7 @@ function calculateWorkExperience(startDate) {
         =
         (now.getFullYear() - startDate.getFullYear()) * 12
         + now.getMonth() - startDate.getMonth()
-        - (1 ? startDate.getDate() > now.getDate() : 0)
+        - (startDate.getDate() > now.getDate() ? 1 : 0)
     ;
 
     return {months: totalMonths % 12, years: Math.floor(totalMonths / 12)};
