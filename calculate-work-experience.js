@@ -1,5 +1,5 @@
 const firstWorkingDay = new Date(2020, 0, 14);
-const firstWorkingDayOnLastJob = new Date(2021, 7, 30);
+const firstWorkingDayOnLastJob = new Date(2025, 9, 22);
 
 function calculateWorkExperience(startDate) {
     const now = new Date();
